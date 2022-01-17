@@ -1,0 +1,103 @@
+*{
+    margin: auto;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #f7f7e8;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    background-color: #11698e;
+    height: 8ch;
+}
+
+header h2{
+    color: white;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: White;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.inputcontainer{
+    position: relative;
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.cityInput{
+    margin: 1rem;
+    padding-left: 10px;
+    min-height: 3ch;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin: 0.25rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.weather-container{
+    display: flex;
+    margin-top: 1rem;
+    min-height: 6ch;
+    width: 30%;
+    background-color: #DBE3F9 ;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 3px 3px rgba(0,0,0,.1);
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.div{
+    margin: 0.25;
+    border: 2px black;
+}
+
+.weather-container h2{
+    margin: 1rem;
+    font-size: 2.5ch;
+    color: black;
+}
+
+.weather-container h4{
+    margin: 0.5rem;
+    font-size: 2ch;
+    color: black;
+}
+
+.weather-container img{
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.weather-container p{
+    display: flex;
+    margin-left: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2ch;
+    color: black;
+}
+
+.weather-container button{
+    margin: 1rem;
+    background: none;
+    border: none;
+}
+
+
+
+
+
